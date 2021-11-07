@@ -1,0 +1,26 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+theme = "congo"
+baseURL = "https://ple103.com"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "ple103"
+copyright = "&copy; 2022 Peter Le"
+enableEmoji = true
+enableRobotsTXT = true
+summaryLength = 0
+
+[author]
+  name = "Peter Le"
+  image = "img/author.jpg"
+# bio = "A little bit about you"
+  links = [
+    { email = "mailto:hello@ple103.com" },
+    { github = "https://github.com/ple103" },
+    { gitlab = "https://gitlab.com/ple103" },
+    { instagram = "https://instagram.com/ple103" },
+    { keybase = "https://keybase.io/ple103" },
+    { linkedin = "https://linkedin.com/in/ple103" },
+  ]
