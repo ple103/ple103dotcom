@@ -24,3 +24,73 @@ summaryLength = 0
     { keybase = "https://keybase.io/ple103" },
     { linkedin = "https://linkedin.com/in/ple103" },
   ]
+
+[params]
+colorScheme = "congo"
+darkMode = "auto"
+darkToggle = true
+logo = "img/logo.png"
+description = "Landing page and internet home of Pete / ple103."
+# mainSections = ["section1", "section2"]
+robots = "noindex"
+
+[params.homepage]
+  layout = "profile" # valid options: page, profile, custom
+  showRecent = false
+
+[params.article]
+  showDate = true
+  dateFormat = "2 January 2006"
+  showAuthor = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = false
+  # editURL = "https://github.com/username/repo/"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  showReadingTime = true
+  # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
+
+[params.list]
+  showBreadcrumbs = true
+  showSummary = true
+  groupByYear = true
+
+[params.taxonomy]
+  showTermCount = true
+
+[params.sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+[params.fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
+
+[params.verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
+
+[[menu.main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[menu.main]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 20
+
+[[menu.main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
