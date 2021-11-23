@@ -3,7 +3,7 @@
 # https://jpanther.github.io/congo/docs/getting-started/
 
 theme = "congo"
-baseURL = "https://ple103.com"
+baseURL = "https://ple103.github.io/ple103dotcom/"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "ple103"
